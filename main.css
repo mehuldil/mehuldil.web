@@ -1,0 +1,81 @@
+
+
+h1, h2
+
+  {
+      text-align: center;
+            color : Blue;
+
+  }
+
+body {
+   
+   font-size: 20px;
+
+  background-color: white;}
+
+header {
+ 
+   font-size: 22px;
+ 
+    background-color: white;
+   }
+
+ .invite
+ { background-image: url("404.PNG"); background-position: right;}
+
+
+
+div
+
+{
+text-align: center;
+            color : rgb(17, 56, 163);
+            background-color: rgba(224,224,224,.5);
+align-items: center;
+font-size: 32px;
+
+}
+
+
+strong
+
+{
+font-size: 32px;
+
+  background-color: Reg;
+  align-self: center;
+
+}
+
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  background-color: #335;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 31.45%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+
+
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: left;
+    display: block;
+    width: 28%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
