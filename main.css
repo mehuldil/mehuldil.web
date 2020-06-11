@@ -1,14 +1,15 @@
 
+
 h1, h2
 
   {
       text-align: center;
-            color : rgb(17, 56, 163)
-      
+            color : Blue;
+
   }
 
 body {
- 
+   
    font-size: 20px;
 
   background-color: white;}
@@ -16,8 +17,14 @@ body {
 header {
  
    font-size: 22px;
+ 
+  background-color: white;
 
-  background-color: white;}
+ }
+
+ .invite
+ { background-image: url(404.PNG); background-position: right;}
+
 
 
 div
@@ -25,8 +32,10 @@ div
 {
 text-align: center;
             color : rgb(17, 56, 163);
-
+            background-color: rgba(224,224,224,.5);
+align-items: center;
 font-size: 32px;
+
 }
 
 
@@ -43,7 +52,7 @@ font-size: 32px;
 /* Style the navigation menu */
 .navbar {
   width: 100%;
-  background-color: #555;
+  background-color: #335;
   overflow: auto;
 }
 
@@ -54,23 +63,20 @@ font-size: 32px;
   color: white;
   text-decoration: none;
   font-size: 17px;
-  width: 31%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 31.45%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
 
 /* Add a background color on mouse-over */
-.navbar a:hover {
-  background-color: #000;
-}
 
 
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
 @media screen and (max-width: 500px) {
   .navbar a {
-    float: none;
+    float: left;
     display: block;
-    width: 100%;
+    width: 28%;
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 }
